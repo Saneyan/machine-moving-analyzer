@@ -4,12 +4,12 @@ Analyzing by tracking data of cars, robots and another moving.
 
 ## What's this?
 
-This analyzer analyzes whether the target object has been moivg or stopping during each time period and determine its position as (X, Y) point. At least more than 2 hours the target moves, the tracking point is ('no answer', 'no answer').
+This analyzer analyzes whether the target object has been moivg or stopping during each time period and determines its position as (X, Y) point. At least more than 2 hours the target moves, the tracking point is ('no answer', 'no answer').
 
 For the following data:
 
 ```csv
-ONDate,ONTime,OFFDate,OFFTimeendX,endY
+ONDate,ONTime,OFFDate,OFFTime,endX,endY
 11/18/2013,10:25:31,11/28/2013,10:49:28,137.1599517,35.087345
 11/18/2013,11:52:01,11/28/2013,11:59:32,137.18894,35.05638167
 11/18/2013,12:37:44,11/18/2013,14:21:02,137.1628917,35.053795
